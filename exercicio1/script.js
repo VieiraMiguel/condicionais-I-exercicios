@@ -1,5 +1,9 @@
-const num = //seu numero aqui
+const num = 8
 
-if(){
-    console.log("sua mensagem aqui");
+function numVerifi(num) {
+    if(num%2 == 0){
+    console.log("O número é par");
 }
+}
+
+numVerifi(num)
